@@ -31,7 +31,7 @@ public class BuilderTest {
     }
 
     @Test
-    //The third test, testPizzaToppings(), verifies that the Pizza object has the expected toppings.
+    //verifies that the Pizza object has the expected toppings.
     public void testPizzaToppings() {
         var pizza = Pizza.builder()
                 .name("Hawaiian")
