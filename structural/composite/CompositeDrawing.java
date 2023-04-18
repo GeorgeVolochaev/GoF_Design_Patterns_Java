@@ -9,8 +9,12 @@ import java.util.List;
  * @author George Volochaev
  */
 public class CompositeDrawing implements InterfaceShape{
-    private List<InterfaceShape> shapes = new ArrayList<>();
+    private final List<InterfaceShape> shapes = new ArrayList<>();
 
+    public  List<InterfaceShape> getShapes() {
+           return shapes;
+    }
+    
     public void add(InterfaceShape shape) {
         shapes.add(shape);
     }
